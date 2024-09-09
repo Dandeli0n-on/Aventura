@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Voltando para Casa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você acabou de ganhar um video-game de aniversário, o jogo que você decidiu comprar tem como objetivo voltar para o mundo humano depois de ser teletransportado para outro mundo! Será que você consegue finalizar o jogo? Aliás, em que mundo esse jogo se passa?</p>
+            <button class="btn-proximo" data-proximo="1">Amphibia</button>
+            <button class="btn-proximo" data-proximo="2">Ilhas Escaldadas</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você aparenta ter caido em um pântano perto de uma cidadezinha de sapos chamada "Wartwood", os habitantes parecem assustados e se recusam a te ajudar, mas, você escuta rumores sobre protetores da torre do sul, talvez eles aceitem te ajudar?</p>
+            <button class="btn-proximo" data-proximo="3">Ir na direção da Torre</button>
+            <button class="btn-proximo" data-proximo="4">Tentar explorar a cidade</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Passando pelo portal, você quase cai de uma montanha, mas tudo bem porque uma fadinha vem te ajudar! Ou, é isso que você pensava pelo menos, ela tentou comer a sua pele e você saiu correndo. Aparentemente você está preso em um mundo de demônios! Você encontra uma feira com vários seres místicos, talvez algum deles estejam dispostos a te ajudar?</p>
+            <button class="btn-proximo" data-proximo="5">Conversar com os Vendedores</button>
+            <button class="btn-proximo" data-proximo="6">Andar pela feira</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Chegando na Torre, você encontra dois sapos bobinhos, eles não parecem os protetores amedontadores que os moradores de Wartwood ameaçaram chamar para te buscar. Bom, sorte sua, porque explicando a sua situação, os dois sapos guardas se simpatizam e te entregam um mapa do mundo. De acordo com eles, a sua maior chance de voltar para casa é pedindo ajuda ao Rei! Então, agora você tem que fazer um caminho até "Newtopia", onde fica o castelo.</p>
+            <button class="btn-proximo" data-proximo="7">Ir até Newtopia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você fica se intrometendo demais e os sapos te prendem e te jogam de volta no pântano. Sem jeito de escapar, e cercado de criaturas perigosas, você não pode voltar para casa. <i><b>FIM DE JOGO!</b></i></p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Os vendedores, muito entediados, falam que a única pessoa que possa te ajudar é "A mulher Coruja", uma bruxa criminosa chamada Eda. Então, você espera anoitecer e tenta encontrar com ela no mercado noturno, você só não contava com todos estarem usando capas, o que torna dificil achar a bruxa. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="8">Investigar as Barracas</button>
+            <button class="btn-proximo" data-proximo="9">Conversar com a pessoa de Capuz Vermelho</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Andando pela feira, deixa os guardas do Imperador suspeitos sobre suas intenções, e suas orelhas de humanos já chamam bastante atenção. Eles resolvem te prender por ser esquisito. <i><b>FIM DE JOGO!</b></i></p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Após meses andando até o castelo, surpreendentemente você é bem recebido. Explicando sua situação para o Rei Andreas, ele concorda em te ajudar, com uma condição: ganhar dele num jogo de 'flipwart', uma espécie de xadrez desse mundo. Você sabe dois passos de xadrez que possam ser úteis para derrotar o Rei, boa sorte!</p>
+            <button class="btn-proximo" data-proximo="10">En Passant</button>
+            <button class="btn-proximo" data-proximo="11">Boden's</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você chega numa barraca interessante, e o dono da barraca oferece te ajudar a encontrar a mulher coruja, porém, com uma condição... você tem que vencê-lo em um jogo de cartas. Você aceita?</p>
+            <button class="btn-proximo" data-proximo="12">Aceitar a proposta</button>
+            <button class="btn-proximo" data-proximo="9">Recusar e ir atrás da pessoa de capuz Vermelho</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Chegando até a pessoa, você da de cara com uma mulher de cabelos brancos e penas pelo corpo. Sim, você finalmente achou Eda, a mulher coruja, que... até concorda em te ajudar, porém você teria que ganhar dela em um jogo de cartas muito famoso nas ilhas. Você aceita?</p>
+            <button class="btn-proximo" data-proximo="13">Aceitar a proposta</button>
+            <button class="btn-proximo" data-proximo="8">Recusar e ir para a barraca</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Capturar um pião não é suficiente para derrotar o Rei, felizmente ele sente pena de suas péssimas habilidades e te ajuda a voltar para casa!</p>
+            <button class="btn-proximo" data-proximo="14">Terminar o jogo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>De algum jeito, sua estratégia funciona e você ganha do Rei! Ele fica em choque e pergunta como você conseguiu fazer isso.</p>
+            <button class="btn-proximo" data-proximo="15">Admitir que você joga melhor que ele</button>
+            <button class="btn-proximo" data-proximo="16">Dizer que foi sorte</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo128-presonomercado.jpg" alt="">
+            <p>As regras do jogo são muito confusas, você mal consegue entender o que está fazendo até que... você perde?! O vendedor pega a sua alma e te transforma em um boneco para que ele possa vender. <i><b>FIM DE JOGO!</b></i></p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>O jogo é bem confuso e a mulher coruja não te explicou direito como ele funciona, você conseguiu entender algumas partes observando ela, mas é óbvio que você não vai ganhar dela sem uma estratégia</p>
+            <button class="btn-proximo" data-proximo="17">Trapacear</button>
+            <button class="btn-proximo" data-proximo="18">Tentar a sorte</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="img/cenario-passo14-escapeamphibia.jpg" alt="">
+            <p>Parabéns! Com a ajuda dos sapos e do Rei de Amphibia, junto de suas ótimas escolhas, você conseguiu finalizar o jogo! Se ficou curioso para ver como as Ilhas vão te tratar, fique bem-vinde a jogar novamente!</p>
+            <button class="btn-proximo" data-proximo="0">Jogar de novo</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="img/cenario-passo15-foidemarcy.jpg" alt="">
+            <p>O doce rei te observa com uma expressão sombria, mas, acaba te oferecendo um lugar na corte dele, onde você pode viver suas maiores fantasias, você decide ficar, afinal, o que pode dar de errado? <i><b>FIM DE JOGO!</b></i></p>
+        </div> 
+
+        <div class="passo" id="passo-16">
+            <p>O rei concorda, aparentemente ele esperava vencer essa partida, meio rude da parte dele. Felizmente, ele te ajuda a voltar para casa!</p>
+            <button class="btn-proximo" data-proximo="14">Terminar o jogo</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Com alguns truques "secretos" do jogo, você acaba com as cartas na manga, literalmente, e ganha da mulher coruja. Ela sorri depois de finalizar o jogo e diz que também estava trapaceando, pera... ela sabia esse tempo todo? Ela ri e acha sua atitude divertida, assim abrindo o portal com uma chave estranha para você voltar para casa!</p>
+            <button class="btn-proximo" data-proximo="19">Terminar o jogo</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="img/cenario-passo128-presonomercado.jpg" alt="">
+            <p>A mulher coruja poderia vencer você de olhos fechados, e é isso que ela faz! Ela ri e fala para você ser melhor da próxima vez, saindo voando no seu bastão mágico. Mas, pera... quando vai ser essa próxima vez? <i><b>FIM DE JOGO!</b></i></p>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <img src="img/cenario-passo19-escapouasilhas.jpg" alt="">
+            <p>Para uma criminosa, Eda foi bem legal, ainda bem que você conseguiu encontrar ela. Graças as suas escolhas, você conseguiu finalizar o jogo! Se ficou curioso para ver como Amphibia vai te tratar, fique bem-vinde a jogar novamente!</p>
+            <button class="btn-proximo" data-proximo="0">Jogar de novo</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
